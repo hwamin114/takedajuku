@@ -185,6 +185,36 @@ export default function Home() {
           className='bg-[url("https://static.takeda.tv/images/2023/top/top_ano.webp")] bg-no-repeat w-[500px] relative'
           style={{ backgroundSize: '100% auto', height: 'calc(100% + 50px)', left: '250px', top: '-50px' }}
         ></div>
+        <div className="flex justify-center">
+          <div className="bg-white border-[5px] border-[#cc2626] rounded-[15px] h-full w-[270px]">
+            <img src="https://static.takeda.tv/images/2023/top/consultation1.webp" alt="" />
+            <div
+              style={{
+                '--tw-translate-x': '-8%',
+                transform: 'translateX(var(--tw-translate-x))',
+              }}
+              className='bg-[url("https://static.takeda.tv/images/2023/top/consultation_title1.webp")] h-[60px] w-[305px] -translate-x-1/2 bg-cover flex justify-center flex-col'
+            >
+              <div className="text-[#fff] text-center font-black text-[18px]">
+                カウンセリングの前に
+                <br />
+                確認していくこと
+              </div>
+            </div>
+            <div className="pt-5 px-8 text-[14px]">
+              <ul className="list-disc text-[#CC2526] font-bold">
+                <li>奇跡の逆転合格カリキュラム</li>
+                <li>参考書を完璧にする方法</li>
+                <li>合格までのすべて（悩みや今後の方針など）</li>
+              </ul>
+            </div>
+            <div className="px-4 pt-2 pb-6 text-[14px]">
+              以上についてお話しします。
+              <br />
+              一人でできそうなら入塾しなくてかまいません！
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
